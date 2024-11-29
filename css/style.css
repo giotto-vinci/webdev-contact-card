@@ -9,7 +9,10 @@ body {
 }
 
 .profile-pic {
+  position: relative;
+  object-fit: cover;
   margin: 10px;
+  padding: 3px;
   border: 4px;
   border-color: rgb(#524e00, green, blue);
   border-radius: 4rem;
@@ -22,10 +25,17 @@ body {
 }
 
 .card-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-info {
+  align-items: center;
+  justify-content: center;
 }
 
 .company-info {
+  align-items: center;
+  justify-content: center;
 }
