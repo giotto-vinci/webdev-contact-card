@@ -1,33 +1,66 @@
-.container {
-    
+@import url("css\reset.css");
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(37, 91, 3);
+  box-sizing: border-box;
+  margin: 8px;
+  padding: 4px;
+  border-radius: 4rem;
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
 }
 
 .profile-pic {
   position: relative;
-  object-fit: cover;
-  margin: 10px;
-  padding: 3px;
-  border: 4px;
-  border-color: rgb(#524e00, green, blue);
-  border-radius: 4rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 4px;
+  padding: 2px;
+  border-radius: 100%;
 }
 
 #name {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bold;
   text-align: center;
 }
 
-.card-description {
+#title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card {
+  margin: 2px;
+  padding: 2px;
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 12px;
+}
+
+.card-description {
+  font-family: cursive;
 }
 
 .contact-info {
@@ -38,4 +71,24 @@ body {
 .company-info {
   align-items: center;
   justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .content-container {
+    
+  }
+
+  
+}
+
+@media (min-width: 500px) {
+  .content-container {
+   
+  }
+
+  
+}
+
+@media (max-width: 499px) {
+  
 }
