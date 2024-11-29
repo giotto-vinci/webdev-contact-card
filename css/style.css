@@ -1,20 +1,31 @@
 .container {
+    
+}
 
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .profile-pic {
+  margin: 10px;
+  border: 4px;
+  border-color: rgb(#524e00, green, blue);
+  border-radius: 4rem;
+}
 
+#name {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
 }
 
 .card-description {
-
 }
 
 .contact-info {
-
-
 }
 
 .company-info {
-    
 }
