@@ -232,4 +232,8 @@ img {
     border-radius: 2rem;
     width: 40%;
   }
+
+  .button {
+    gap: 50%;
+  }
 }
